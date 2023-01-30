@@ -1,0 +1,235 @@
+*{
+    font-family: Helvetica;   
+}
+section.Contactos{ 
+    width: 100%;
+    height: 160vh;
+    position: relative;
+    background-size: cover;
+    background-color: white;
+   
+}
+.lineasHorizontales{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 40px; 
+}
+p.TitulosSection{
+    color: #27A7C5;
+    font-size: 50px;
+    text-align: center;   
+}
+.horizontal-barIzq {
+    width: 50px;
+    height: 6px;
+    background-color: #27A7C5;
+    margin: 20px 0;
+    margin-top: 40px;
+    margin-left: 35%;   
+}
+.horizontal-barDer {
+    width: 50px;
+    height: 6px;
+    background-color: #27A7C5;
+    margin: 20px 0;
+    margin-top: 40px;
+    margin-right: 35%;   
+}
+
+
+.main-container {
+    padding: 30px;
+  }
+  
+  
+  /* CARDS */
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+  }
+  
+ 
+  
+  .card__link::after {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 0.5s;
+  }
+  
+  .card__link:hover::after {
+    width: 100%;
+  }
+  
+  .card__title {
+    grid-row: 0/4;
+    font-weight: 400;
+    color: #ffffff;
+   
+    margin-top: 0px;
+
+  }
+  .card_texto {
+    grid-row: 3/4;
+    padding-top: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    
+  }
+  
+  .card__apply {
+    grid-row: 1/5;
+    align-self: center;
+  }
+  
+  /* CARD BACKGROUNDS */
+  
+  .card-1 {
+    background: radial-gradient(#1fe4f5, #3fbafe);
+    text-align: center;
+    
+  }
+  
+  .card-2 {
+    background: radial-gradient(#fbc1cc, #fa99b2);
+  }
+  
+  .card-3 {
+    background: radial-gradient(#76b2fe, #b69efe);
+  }
+  
+  .card-4 {
+    background: radial-gradient(#60efbc, #58d5c9);
+  }
+  
+  .card-5 {
+    background: radial-gradient(#f588d8, #c0a3e5);
+  }
+  
+  /* RESPONSIVE */
+  
+  @media (max-width: 1600px) {
+    .cards {
+      justify-content: center;
+    }
+  }
+
+  div.principal{
+    background-color: white;
+    width: 100%;
+    height: 750px;
+  }
+  div.secundario1{
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    position: relative;
+  }
+  div.secundario2{
+    background-color: #27A7C5;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content : center;
+  }
+  div.terciario{
+    background-color: #27A7C5;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    z-index: 1;
+    top: 1000px;
+    left: 50%px;
+    border-radius: 40px 40px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  div.terciario .Input1,.Input2,textarea{
+    width: 300px;
+    margin: 20px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid white;
+  }
+  div.terciario .Input1,.Input2{
+    padding: 17px;
+  }
+  div.terciario textarea{
+    padding-top: 17px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 35px;
+  }
+  div.terciario .Input1{
+    margin-top: 35px;
+  }
+  .btnsend{
+    border-radius: 30px; 
+    background-color: white; 
+    color: #E40D4E; 
+    padding: 10px 25px; 
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
+    font-size: 15px;
+    font-weight: 300;
+    border: 0px;
+    width: 180px;
+  }
+  .btnsend:hover{
+    background-color: #E40D4E; 
+    color: white;
+    cursor:pointer; 
+  }
+  h3.Contactar{
+    color: white;
+    margin-top: 20px;
+    font-size: 40px;
+  }
+
+  .MasInformacion{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+  }
+  .MasInformacion img{
+    height: 50px;
+  }
+  .MasInformacion p{
+    font-size: 20px;
+  }
+  
+
+  
+
+  
+ 
+
+
+
+
+
+

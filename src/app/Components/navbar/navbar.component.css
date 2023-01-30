@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+header{
+    position: fixed; 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+    background-color: white;
+    height: 30px;
+    box-shadow: 0px 4px 5px #888888;
+    
+}
+header .logo{
+    position: relative;
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    text-decoration: none;
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+header ul li a{
+    position: relative;
+    font-family: Helvetica;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+
+/* Estilo del botón */
+.btnIniciarSesion {
+    border-radius: 30px; 
+    background-color: #E40D4E; 
+    color: white; 
+    padding: 10px 25px; 
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
+    font-size: 15px;
+    font-weight: 600;
+    border: 0px;
+  }
+
+  .btnIniciarSesion:hover {
+    background-color: black; 
+    cursor:pointer; 
+  }

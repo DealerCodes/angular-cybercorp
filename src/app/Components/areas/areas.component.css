@@ -1,0 +1,127 @@
+*{
+    font-family: Helvetica;   
+}
+section.Areas{ 
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background-size: cover;
+    background-color: #27A7C5; 
+   
+}
+.lineasHorizontales{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 40px; 
+}
+p.TitulosSection{
+    color: white;
+    font-size: 50px;
+    text-align: center;   
+}
+.horizontal-barIzq {
+    width: 50px;
+    height: 6px;
+    background-color: white;
+    margin: 20px 0;
+    margin-top: 40px;
+    margin-left: 35%;   
+}
+.horizontal-barDer {
+    width: 50px;
+    height: 6px;
+    background-color: white;
+    margin: 20px 0;
+    margin-top: 40px;
+    margin-right: 35%;   
+}
+
+
+
+.AreasImagenes {
+  display: flex;
+  width: 900px;
+  height: 500px;
+  margin-left: 28%;
+  margin-top: 20px;
+  position: relative;
+  
+}
+.AreasImagenes img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+  
+}
+.AreasImagenes div img:hover{
+  cursor: crosshair;
+  width: 350px;
+  opacity: 1;
+  filter: contrast(120%);
+  
+ z-index: 1;
+}
+.AreasImagenes div{
+  width: 200px;
+  height: 300px;
+}
+.AreasImagenes div img{
+  position: relative;
+  width: 200px;
+  height: 500px;
+}
+
+.AreasImagenes div p {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+}
+.DivSalud:hover .salud{
+  display: block;
+  width: 330px;
+  height: 40px;
+  margin-left: 200px;
+  font-size: 40px;
+  z-index: 1;
+  margin-bottom: 0px;
+  text-align: center;
+ }
+ .DivIngenieria:hover .ingenieria{
+  display: block;
+  width: 330px;
+  height: 40px;
+  margin-left: 0px;
+  font-size: 40px;
+  z-index: 1;
+  margin-bottom: 0px;
+  text-align: center;
+ }
+ .DivTecnologia:hover .tecnologia{
+  display: block;
+  width: 330px;
+  height: 40px;
+  margin-left: 400px;
+  font-size: 40px;
+  z-index: 1;
+  margin-bottom: 0px;
+  text-align: center;
+ }
+ .DivLegal:hover .legal{
+  display: block;
+  width: 330px;
+  height: 40px;
+  margin-left: 600px;
+  font-size: 40px;
+  z-index: 1;
+  margin-bottom: 0px;
+  text-align: center;
+ }
+

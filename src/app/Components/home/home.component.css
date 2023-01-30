@@ -1,0 +1,82 @@
+*{
+    font-family: Helvetica;   
+}
+/* -----------------------------------------Inicio---------------------------------- */
+section.Inicio{ 
+width: 100%;
+height: 100vh;
+position: relative;
+background-size: cover;
+font-family: Helvetica;
+
+}
+/* Presentacion de la pagina */
+.Inicio-Presentacion{
+display:flex;
+justify-content: space-between;
+}
+.Inicio-TextoPresentacion{
+margin-top: 250px;
+margin-left: 190px;
+position: relative;
+text-align: center;
+
+
+}
+.LogoCybercorp{
+margin-top: 100px;
+margin-right: 150px;
+width: 680px;
+height: 680px;
+}
+
+p.subtitulo{
+font-weight: 600;
+font-size: 30px;
+color: black;
+margin-top: 230px;
+text-align: left; 
+}
+h2 {
+font-size: 11vmin;
+position: absolute;
+color: #27A7C5;
+}
+
+.wave {
+color: #E40D4E;
+animation: wave 3s ease-in-out infinite;
+}
+
+@keyframes wave {
+0%, 100% {
+  clip-path: polygon(
+    0% 47%,
+    10% 48%,
+    33% 54%,
+    54% 60%,
+    70% 61%,
+    84% 59%,
+    100% 52%,
+    100% 100%,
+    0% 100%
+  );
+}
+
+30% {
+  clip-path: polygon(0% 60%,
+  15% 65%,
+  34% 66%,
+  51% 62%,
+  67% 50%,
+  84% 45%,
+  100% 46%,
+  100% 100%,
+  0% 100%
+  );
+}
+}
+
+
+
+
