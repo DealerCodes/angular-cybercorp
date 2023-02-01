@@ -10,12 +10,10 @@ header{
     justify-content: space-around;
     align-items: center;
     transition: 0.7s;
-    padding: 30px 20px;
-    z-index: 10;
+    padding:1.5%;
+    z-index: 100;
     background-color: white;
-    height: 30px;
-    box-shadow: 0px 4px 5px #888888;
-    
+    box-shadow: 0px 4px 5px #888888; 
 }
 header .logo{
     position: relative;
@@ -31,6 +29,8 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+   
 }
 header ul{
     position: relative;
@@ -50,6 +50,14 @@ header ul li a{
     letter-spacing: 0px;
     font-weight: 600;
     transition: 0.7s;
+}
+nav ul li a:hover {
+    background: #DC143C;
+    height: 40px;
+    width: 150%;
+    padding: 8px;
+    color: white;
+    border-radius: 30px;
 }
 
 /* Estilo del botón */

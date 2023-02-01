@@ -4,30 +4,42 @@
 /* -----------------------------------------Inicio---------------------------------- */
 section.Inicio{ 
 width: 100%;
-height: 100vh;
+height: auto;
 position: relative;
 background-size: cover;
 font-family: Helvetica;
+
 
 }
 /* Presentacion de la pagina */
 .Inicio-Presentacion{
 display:flex;
-justify-content: space-between;
+width: 100%;
+height: 100%;
+justify-content: space-around;
+
+flex-wrap: wrap;
+padding-top: 10%;
+padding-bottom: 11%;
+
 }
 .Inicio-TextoPresentacion{
-margin-top: 250px;
-margin-left: 190px;
-position: relative;
-text-align: center;
-
+padding-left: 10%;
+width: 40%;
 
 }
+.divLogo{
+  
+  width: 40%;
+  min-width: 400px;
+  padding-right: 10px;
+  
+}
+
 .LogoCybercorp{
-margin-top: 100px;
-margin-right: 150px;
-width: 680px;
-height: 680px;
+width: 100%;
+height: 110%;
+
 }
 
 p.subtitulo{
@@ -75,6 +87,16 @@ animation: wave 3s ease-in-out infinite;
   0% 100%
   );
 }
+}
+@media (max-width:600px){
+  .Inicio-TextoPresentacion{
+    width: 100%;
+  }
+}
+@media (max-width:850px){
+  section.Inicio{
+    padding-top: 90px;
+  }
 }
 
 
