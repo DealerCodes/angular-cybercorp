@@ -3,9 +3,7 @@
 }
 section.AcercaDeNosotros{ 
     width: 100%;
-    height: 120vh;
-    position: relative;
-    background-size: cover;
+    height: auto;
     background-color: #27A7C5; 
    
 }
@@ -38,33 +36,64 @@ p.TitulosSection{
 }
 
 
-.DivPrincipal{
-    
-    width: 75%;
-    height: 40vh;
-    margin-left: 10%;
-    margin-top: 40px;
+.DivPrincipal{  
+    width: 100%;
+    height: auto; 
+    margin-top: 2%;
     display: flex;
-    
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ImagenCyber {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 500px;
+   
 }
 .ImagenCyber img{
-    height: 35vh;
-    width: 500px;
+    height: 80%;
+    width: 80%;
+    
+   
+}
+.TextCyber{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .TextCyber h3 {
+    margin-top: 2%;
     color: white;
     text-align: center;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 260%;
     text-decoration: underline;
+   
+    padding: 1%;
+
+  
 }
+
 .TextCyber p {
-    margin-left: 80px;
+    padding-top: 2%;
+    padding-bottom: 3%;
     color: white;
-    font-size: 25px;
-    height: 120px;
-    width: 740px;
+    font-size: 170%;
+    height: auto;
+    width: 70%;
+    min-width: 350px;
+    
 }
+
+
+
 .CorporacionDesc{
     margin-top: 30px;
     font-size: 25px;
@@ -72,17 +101,22 @@ p.TitulosSection{
     text-align: center;
 }
 .LogosEmpresas{
-    height: 300px;
+    height: auto;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 2%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+
    
 }
 .LogosEmpresas img{
+    margin-top: 2%;
     height: 250px;
     width: 180px;
+    
 }
 
 
