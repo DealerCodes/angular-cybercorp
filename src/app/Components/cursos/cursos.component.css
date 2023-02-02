@@ -40,7 +40,7 @@ p.TitulosSection{
 .AlinearCards{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
     height: auto;
     padding-top: 2%;
@@ -56,6 +56,8 @@ p.TitulosSection{
     width: 350px;
     height: 480px;
     margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
   
 }
 
