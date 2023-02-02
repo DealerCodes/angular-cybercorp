@@ -46,7 +46,7 @@ p.subtitulo{
 font-weight: 600;
 font-size: 30px;
 color: black;
-margin-top: 230px;
+margin-top: 30%;
 text-align: left; 
 }
 h2 {
@@ -92,6 +92,11 @@ animation: wave 3s ease-in-out infinite;
   .Inicio-TextoPresentacion{
     width: 100%;
   }
+  p.subtitulo{
+    font-weight: 600;
+    font-size: 20px;
+   
+    }
 }
 @media (max-width:850px){
   section.Inicio{

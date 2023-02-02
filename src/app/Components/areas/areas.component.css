@@ -132,8 +132,10 @@ p.TitulosSection{
  }
 
 
-@media (min-width:600px) {
+@media (max-width:600px) {
   .AreasImagenes {
-   
+   width: 90%;
+   padding: 0;
+   margin-left: 13px;
   }
 }
